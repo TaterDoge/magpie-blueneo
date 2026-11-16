@@ -1,0 +1,30 @@
+{
+  "name": "opencode-blueneo-auth",
+  "version": "0.1.0",
+  "description": "OpenCode provider plugin: BlueNeo Cloud",
+  "type": "module",
+  "main": "./index.mjs",
+  "files": [
+    "index.mjs",
+    "README.md"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "blueneo"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaterDoge/magpie-blueneo.git"
+  },
+  "magpie": {
+    "name": "BlueNeo Cloud",
+    "summary": {
+      "zh": "用 BlueNeo Cloud 的 API key 接入模型，显示额度、到期时间和每日签到。",
+      "en": "BlueNeo Cloud models with quota, expiry and daily check-in."
+    },
+    "maxConcurrency": 8,
+    "icon": "https://www.blueneo.cloud/brand/blueneo/blueneo-interwoven-01-deep-cobalt.svg"
+  }
+}

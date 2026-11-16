@@ -1,0 +1,4 @@
+models.sh
+.DS_Store
+*.tgz
+plugin-auth.json
